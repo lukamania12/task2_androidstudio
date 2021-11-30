@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/homeworkcolor1"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp">
+
+        <EditText
+            android:id="@+id/signupmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="3"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="70dp">
+
+        <EditText
+            android:id="@+id/signuppassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="5"
+            android:inputType="textPassword"
+            android:hint="@string/password"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="110dp">
+
+        <EditText
+            android:id="@+id/signup_f_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="5"
+            android:hint="@string/f_name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="150dp">
+
+        <EditText
+            android:id="@+id/signup_l_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="5"
+            android:hint="@string/l_name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="190dp">
+
+        <EditText
+            android:id="@+id/signup_u_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="5"
+            android:hint="@string/u_name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="630dp"
+        android:gravity="center"
+        android:layout_marginHorizontal="30dp">
+
+        <Button
+            android:id="@+id/signup_registerbtn"
+            android:backgroundTint="@color/homeworkcolor2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/register" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="685dp"
+        android:gravity="center"
+        android:layout_marginHorizontal="30dp">
+
+        <Button
+            android:id="@+id/signup_to_signin"
+            android:backgroundTint="@color/homeworkcolor2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/alr_registered" />
+    </LinearLayout>
+
+</RelativeLayout>
